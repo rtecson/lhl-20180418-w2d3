@@ -13,6 +13,9 @@
 		2A136C082087A453002AFE33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A136C072087A453002AFE33 /* Assets.xcassets */; };
 		2A136C0B2087A453002AFE33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A136C092087A453002AFE33 /* LaunchScreen.storyboard */; };
 		2A136C0E2087A453002AFE33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A136C0D2087A453002AFE33 /* main.m */; };
+		2A136C162087A884002AFE33 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A136C152087A884002AFE33 /* ViewController2.m */; };
+		2A136C192087AE87002AFE33 /* myCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A136C182087AE87002AFE33 /* myCustomView.m */; };
+		2A136C1B2087AEB2002AFE33 /* myCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A136C1A2087AEB2002AFE33 /* myCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		2A136C0A2087A453002AFE33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A136C0C2087A453002AFE33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A136C0D2087A453002AFE33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A136C142087A884002AFE33 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		2A136C152087A884002AFE33 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		2A136C172087AE87002AFE33 /* myCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myCustomView.h; sourceTree = "<group>"; };
+		2A136C182087AE87002AFE33 /* myCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myCustomView.m; sourceTree = "<group>"; };
+		2A136C1A2087AEB2002AFE33 /* myCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myCustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,11 @@
 				2A136BFF2087A452002AFE33 /* AppDelegate.m */,
 				2A136C012087A452002AFE33 /* ViewController.h */,
 				2A136C022087A452002AFE33 /* ViewController.m */,
+				2A136C142087A884002AFE33 /* ViewController2.h */,
+				2A136C152087A884002AFE33 /* ViewController2.m */,
+				2A136C172087AE87002AFE33 /* myCustomView.h */,
+				2A136C182087AE87002AFE33 /* myCustomView.m */,
+				2A136C1A2087AEB2002AFE33 /* myCustomView.xib */,
 				2A136C042087A452002AFE33 /* Main.storyboard */,
 				2A136C072087A453002AFE33 /* Assets.xcassets */,
 				2A136C092087A453002AFE33 /* LaunchScreen.storyboard */,
@@ -129,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A136C0B2087A453002AFE33 /* LaunchScreen.storyboard in Resources */,
+				2A136C1B2087AEB2002AFE33 /* myCustomView.xib in Resources */,
 				2A136C082087A453002AFE33 /* Assets.xcassets in Resources */,
 				2A136C062087A452002AFE33 /* Main.storyboard in Resources */,
 			);
@@ -142,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A136C032087A452002AFE33 /* ViewController.m in Sources */,
+				2A136C162087A884002AFE33 /* ViewController2.m in Sources */,
 				2A136C0E2087A453002AFE33 /* main.m in Sources */,
+				2A136C192087AE87002AFE33 /* myCustomView.m in Sources */,
 				2A136C002087A452002AFE33 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
